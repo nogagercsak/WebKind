@@ -1,0 +1,139 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ 
+ /* import font */
+ @font-face {
+    font-family: 'Ubuntu Mono';
+    src: url('Ubuntu_Mono/UbuntuMono-Regular.ttf') format('truetype')
+ }
+ 
+ 
+ /* Body styles */
+ body {
+    font-family: 'Ubuntu Mono', sans-serif;
+    background-image: url('assets/bg.jpg');
+    background-size: cover;
+    background-position: center;
+ }
+ 
+ 
+ /* Navbar styles */
+ 
+ 
+ .navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #FDDFE7;
+    padding: 10px 0;
+ }
+ 
+ 
+ nav a {
+    color: #132CAF;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1em;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: padding 0.5s;
+ }
+ 
+ 
+ 
+ 
+ nav a:hover {
+    background-color:#ebcdd5;
+    transition: 0.5s;
+    transform: translateY(-5px);
+ }
+ 
+ 
+ /* Header styles */
+ .hero {
+    color: #132CAF;
+    padding: 80px 0;
+    text-align: center;
+ }
+ 
+ 
+ .hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+ }
+ 
+ 
+ .hero p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+ }
+ 
+ 
+ .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FDDFE7;
+    color: #132CAF;
+    font-size: 1.1em;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.7s ease;
+ }
+ 
+ 
+ .btn:hover {
+    background-color: #132CAF;
+    color: #FDDFE7;
+ }
+ 
+ 
+ /* Portfolio styles */
+ .portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+ }
+ 
+ 
+ .portfolio-item {
+    max-width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+ }
+ 
+ 
+ .portfolio-item img {
+    max-width: 100%;
+    border-radius: 5px;
+ }
+ 
+ 
+ .portfolio-item h2 {
+    margin: 10px 0;
+ }
+ 
+ 
+ .portfolio-item p {
+    font-size: 0.9em;
+ }
+ 
+ 
+ /* Footer styles */
+ .footer {
+    color: #132CAF;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+ }
+ 
