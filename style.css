@@ -174,7 +174,36 @@ nav a:hover {
    font-size: 1.7em;
 }
  
- 
+
+/* Contact styles */
+.contact {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.contact-info {
+   max-width: 400px;
+   background-color: #fff;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   text-align: center;
+   opacity: 0;
+   animation: fadeIn 1s forwards;
+}
+
+.contact-info h2 {
+   margin-bottom: 20px;
+   color: #132CAF;
+}
+
+.contact-info p {
+   font-size: 1.1em;
+   margin-bottom: 10px;
+}
+
 
 
 
