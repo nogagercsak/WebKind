@@ -97,6 +97,26 @@ nav a:hover {
    color: #FDDFE7;
 }
 
+/*Why styles */
+
+.why-box{
+   color: #132CAF;
+   padding-left: 200px;
+   padding-right: 200px;
+   text-align: center;
+   animation: fadeIn 1s forwards;
+}
+.why-box h3 {
+   font-size: 2.6em;
+   padding-bottom: 20px;
+}
+
+.why-box p {
+   font-size: 1.2em;
+   margin-bottom: 40px;
+   padding-top: 30px;
+}
+
 
 /* Portfolio styles */
 .portfolio {
@@ -204,7 +224,14 @@ nav a:hover {
    margin-bottom: 10px;
 }
 
+/* doodle email styles */
 
+.doodle-email{
+   padding-top: 100px;
+   width: 100vw; /* 100% of the viewport width */
+   height: auto; /* Automatically adjust the height to maintain aspect ratio */
+   display: block; /* Ensures it behaves like a block element */
+}
 
 
 /* Footer styles */
