@@ -197,7 +197,7 @@ nav a:hover {
    border: 1px solid #132CAF;
    padding: 20px;
    margin-bottom: 20px;
-   text-align: center !important; /* Add !important to make sure it is in center*/
+   text-align: center !important; 
    max-width: 500px; 
    width: 100%; 
 }
@@ -216,8 +216,8 @@ nav a:hover {
 .step-box {
    display: flex;
    flex-direction: column;
-   align-items: left;
-   justify-content: left;
+   align-items: center;
+   justify-content: center;
    padding: 20px;
    margin: 5px 0;
    max-width: 800px;
